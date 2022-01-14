@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+p {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}
+
+p#color {
+    color: red;
+}
+
+p#color2 {
+    color: green;
+}
+
+.color {
+    color: blue;
+}
+
+.color2 {
+    color: aqua;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>As listas ordenadas são aquelas em que a ordem faz diferença. Para facilitar a ordenação das listas ordenadas, utilizamos a tag &lt;ol&gt; (order list) com isso todos os itens colocados na lista recebem sua 'numeração' automaticamente, e assim, se precisar acrescentar algum item em algum lugar na lista, suar ordem é ajustada automaticamente. Cada item da lista tem que entrar com a tag &lt;li&gt; (list iten). Veja o exemplo abaixo:</p>
+    <ol>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>A lista vem automaticamente ordenada com a forma numérica, mas também podemos utilizar outras formas para ordenar utilizando o parâmetro "type" dentro da tag &lt;ol&gt;, que dará mais 5 opções de formas de ordenação (1, A, a, I, i).</p>
+    <p>Veja os exemplos de formas de ordenação utilizando as opções dentro do parâmetro "type":</p>
+    <h4>Parâmetro "1" (numérico):</h4>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h4>Parâmetro "A" (alfabético maiúsculo):</h4>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h4>Parâmetro "a" (alfabético minusculo):</h4>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h4>Parâmetro "I" (romano maiúsculo):</h4>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h4>Parâmetro "a" (romano minusculo):</h4>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>Podemos também selecinar de onde a ordenação irá começar utilizando também o parâmetro "start" e informando de qual posição irá iniciar.</p>
+    <h4>Vejá exemplos iniciando da posição "4":</h4>
+    <ol type="1" start="4">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="A" start="4">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="a" start="4">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="I" start="4">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <ol type="i" start="4">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <hr>
+    <h2>Listas não Ordenadas</h2>
+    <p>As listas não ordenadas são aquelas em que a ordem não faz diferença. Para estas listas vamos utilizar a tag &lt;ul&gt; (unorder list). Veja o exemplo abaixo:</p>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <p>Como padrão a marcação das listas vêem com uma "bolinha" que é a tipo "disc", mas temos algumas opções que podemos alterar utilizando o parâmentro "type" dentro da tag &lt;ul&gt; e podemos colocar as opções "disc" (que é a padrão), "circle", "square". Vejá os exemplos abaixo:</p>
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <hr>
+    <h2>Juntando listas ordenadas e listas não ordenadas</h2>
+    <p>Podemos também misturar as listas, como por exemplo:</p>
+    <h4>Minhas linguagens favoritas:</h4>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h4>Meus jogos favoritos</h4>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="disc">
+                <li>Mario Bros 3</li>
+                <li>Mario Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <hr>
+    <h2>Lista de definição</h2>
+    <p>Criamos a lista de descrição utilizando a tag &lt;dl&gt; (description list), que é uma lista onde colocamos os itens de acordo com o que ele é. Para um item que seja um "termo" utilizamos a tag &lt;dt&gt;, e para um item que seja uma "descrição" utilizamos a tag &lt;dd&gt;. Veja no exemplo abaixo:</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a acriação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

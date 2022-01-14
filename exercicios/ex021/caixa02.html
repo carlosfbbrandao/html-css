@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+            margin:10px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: lightgray;
+            margin: 0px 10px;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        article {
+            background-color: gray;
+            padding: 10px;
+            margin: 2px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: lightgray;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+            font-size: 12px;
+        }
+
+        article > h2 {
+            margin:0px;
+        }
+
+        article > p {
+            margin-top: 5px;
+        }
+
+        aside > p {
+            margin: 0px;
+        }
+
+        article > aside {
+            background-color: darkgray;
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: inset 2px 3px 3px 0px rgb(0, 0, 0, 0.7);
+        }
+
+        article > p {
+            text-align: justify;
+        }
+        section > p {
+            margin: 0px 0px 10px 0px;
+            font-size: 12px;
+            color: gray;
+            text-decoration: underline;
+        }
+
+        div#testebordas {
+            background-color: white;
+            height: 200px;
+            width: 400px;
+            margin: 20px auto 20px auto;
+            border-radius: 5px 50px;
+            box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.6);
+        }
+
+        div#bola {
+            background-color: white;
+            height: 200px;
+            width: 200px;
+            margin: 40px auto 0px auto;
+            border-radius: 50%;
+            box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Linik</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <P>Esporte/Politica/Tecnologia</P>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quaerat, quis, quod nesciunt illo delectus quasi magni iste in mollitia natus ut perspiciatis repudiandae debitis cum minima earum nam quas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ipsa ut cum recusandae omnis doloremque aperiam magni. Fugit reprehenderit culpa et eligendi amet fugiat laudantium, ut quasi quis quibusdam animi.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Carlos Brandão</p>
+    </footer>
+    <div id="testebordas">
+
+    </div>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
