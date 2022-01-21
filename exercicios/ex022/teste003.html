@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testeando Background-size</title>
+    <style>
+        body {
+            background-color: black;
+            height: 96vh;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1aHs5jmYA96yF3n5q4C9VUiw1TInC8jhsxA&usqp=CAU);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: auto;
+        }
+
+        div#img-quadrada {
+            width: 400px;
+            height: 400px;
+
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1aHs5jmYA96yF3n5q4C9VUiw1TInC8jhsxA&usqp=CAU);
+            background-color: blue;
+            margin-bottom: 20px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        div#img-retangular {
+            width: 400px;
+            height: 400px;
+            background-image: url(imagens/images.jpg);
+            background-color: blue;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="img-quadrada">
+
+    </div>
+    <div id="img-retangular">
+
+    </div>
+</body>
+</html>
