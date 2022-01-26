@@ -38,7 +38,7 @@
             color: white;
         }
 
-        thead > tr > th {
+        thead /*> tr > th*/ {
             position: sticky;
             background-color: gray;
             top: -1px;
@@ -65,8 +65,10 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
-        <caption>População das Unidades Federativas</caption>
         <thead>
+            <tr>
+                <th>População das Unidades Federativas</th>
+            </tr>
             <tr>
                 <th scope="col" class="posi">Posição</th>
                 <th scope="col">Estado</th>
@@ -212,7 +214,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th scope="row" colspan="2">Total de habitandre</th>
+                <td></td>
+                <th scope="row">Total de habitandre</th>
                 <td class="num"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
