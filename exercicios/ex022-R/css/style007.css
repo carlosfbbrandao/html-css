@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: 0px;
+}
+/*
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}*/
+
+/* ShortHand - Background
+    color > image > position > repeat > size* > attachment
+*/
+
+body {
+    height: 100vh;
+    background: black url(../imagens/wallpaper002.jpg) center center no-repeat scroll;
+
+    /*    * A ordem é essa, mas o size na shorthand não funciona, por isso quando for usar shorthand, não coloque o size na shorthand, coloque ele depois. */
+
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
