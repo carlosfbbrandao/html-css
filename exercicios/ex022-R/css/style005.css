@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+div.bg {
+    height: 98vh;
+    background-size: 2000px;
+    background-image: url(../imagens/wallpaper003.jpg);
+    background-position: center center;
+}

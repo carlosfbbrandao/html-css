@@ -1,11 +1,7 @@
 @charset "UTF-8";
 
-body {
-    
-}
-
 div.bg {
-    height: 100vh;
+    height: 98vh;
     background-image: url(https://i.pinimg.com/736x/78/a8/17/78a817074b4c74d51fbc026196981d4e.jpg);
     background-size: 200px;
     background-repeat: no-repeat;
